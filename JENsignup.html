@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌀 J.E.A.N 🌀</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<h1>
+   Welcome to J.E.A.N 🌀
+</h1>
+<h3>
+    Please signup to learn more about our work.We'd loce to connect soon.
+</h3>
+<body>
+    <div class = container > </div>
+        <div>
+            <form>
+                <fieldset>
+                    <label for="email address">Email Address </label> 
+                    <input type= "text" name="email address" id="email address" Title="Email Address must at least 10 characters" minlength="10" required >
+                
+                    <label for="Password"> Password </label>
+                    <input type= "password" name="Password" id="Password" Title="Password must be at least 3 characters and no more than 15 characters; No Uppercase" pattern="[^A-Z]*" minlength=3 maxlength=15 required>
+                
+                    <!-- <label for="Login"> Login </label>  -->
+                    <button type="submit" class="btn btn-primary"> Login </button>
+                </fieldset>
+        
+            </form>
+        </div>
+        <div>
+            <script>
+                document.getElementsByTagName("button").onclick = function submitButton(){
+                alert= "Thank You for your interst! Someone will be in touch." 
+             }
+             submitButton
+            </script>
+        </div>
+
+    </div>
+</body>
+</html>
